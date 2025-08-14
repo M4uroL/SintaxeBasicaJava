@@ -1,23 +1,38 @@
 # Sintaxe Básica do Java
 
-Este projeto apresenta exemplos práticos da sintaxe fundamental da linguagem **Java**, abordando variáveis, operadores, estruturas condicionais, loops, arrays, métodos e tratamento de exceções. Ideal para iniciantes que desejam compreender a base da programação em Java.
+Este projeto demonstra, de forma prática e comentada, os principais conceitos da **sintaxe básica da linguagem Java**.  
+O objetivo é servir como um guia de estudo para iniciantes, mostrando como funcionam variáveis, operadores, estruturas de decisão, laços de repetição, arrays, métodos e tratamento de exceções.
 
-## 📜 Código
+## 📌 O que o código demonstra
 
-```java
-// Monstrando a sintaxe básica do Java
-public class SintaxeBasicaJava {
-    public static void main(String[] args) {
-        int idade = 25;
-        double salario = 3500.50;
-        String nome = "Mauro de Lima";
-        System.out.println("Nome: " + nome + " | Idade: " + idade + " | Salário: " + salario);
-        // Restante do código demonstra operadores, condicionais, loops, arrays e métodos
-    }
-    public static int somar(int x, int y) { return x + y; }
-    public static void exibirMensagem(String mensagem) { System.out.println("Mensagem: " + mensagem); }
-    public static double calcularAreaCirculo(double raio) { final double PI = 3.14159; return PI * raio * raio; }
-    public static boolean ehPar(int numero) { return numero % 2 == 0; }
-}
+- **Declaração de variáveis**  
+  Uso de tipos primitivos (`int`, `double`, `char`, `boolean`, `float`, `long`) e objetos (`String`).
 
+- **Operadores**  
+  Operações aritméticas (`+`, `-`, `*`, `/`, `%`) e de comparação (`==`, `!=`, `>`, `<`, `>=`, `<=`).
 
+- **Estruturas condicionais**  
+  Uso de `if-else`, `if-else if-else` e `switch-case`.
+
+- **Estruturas de repetição**  
+  Exemplos com `for`, `while` e `do-while`.
+
+- **Arrays**  
+  Declaração, inicialização e iteração com `for` e `for-each`.
+
+- **Métodos**  
+  Métodos com retorno (`somar`, `calcularAreaCirculo`, `ehPar`) e sem retorno (`exibirMensagem`), incluindo o uso de constantes.
+
+- **Tratamento de exceções**  
+  Uso de `try-catch-finally` para capturar e tratar erros.
+
+- **Entrada de dados**  
+  Demonstração de como utilizar a classe `Scanner` para ler valores do usuário.
+  - Participe **Livre para testes e estudos**
+
+## 🚀 Como executar
+
+1. Certifique-se de ter o **Java 8** ou superior instalado.
+2. Compile o arquivo:
+   ```bash
+   javac SintaxeBasicaJava.java
